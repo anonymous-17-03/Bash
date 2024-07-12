@@ -26,8 +26,15 @@ El script utiliza colores en la salida para hacerla más legible y amigable para
 ### Notas
 
 Asegúrate de tener permisos de ejecución en el script. Puedes otorgarlos con el siguiente comando:
+
 ```sh
 chmod +x script.sh
 ```
 
-Este script asume que la URL http://web.com/l/f/i.php?lfi=$filename es válida y accesible. Asegúrate de modificarla según tus necesidades.
+- Este script asume que la URL http://web.com/l/f/i.php?lfi=$filename es válida y accesible. Asegúrate de modificarla según tus necesidades.
+
+## Importante
+
+Este script está diseñado para mostrar un ejemplo básico de lectura de archivos y dar una estructura inicial para archivos sh, no debe utilizarse para propósitos maliciosos. La explotación de vulnerabilidades como la Inclusión de Archivos Locales (LFI) puede ser ilegal y debe realizarse únicamente en sistemas autorizados y con permiso explícito.
+
+Este script puede servir como una herramienta educativa para entender cómo funcionan las vulnerabilidades como LFI y cómo se pueden mitigar.
